@@ -84,12 +84,14 @@ div {
 .how-text-gradient {
     background: -webkit-linear-gradient(-90deg, var(--text-purple), var(--text-blue));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .how-content-gradient {
     background: -webkit-linear-gradient(0deg, var(--text-purple), var(--text-blue));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -133,10 +135,6 @@ div {
 
 @media only screen and (min-aspect-ratio: 10/7) {
 
-    .how-card {
-        /* background-color: red; */
-    }
-
     .sub-title {
         font-size: 3.8vw;
         grid-row: 1 / span 1;
@@ -148,10 +146,6 @@ div {
 }
 
 @media only screen and (max-width: 1110px) {
-
-    .how-card {
-        /* background-color: blue; */
-    }
 
     .tilt-left {
         rotate: 0deg;

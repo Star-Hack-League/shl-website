@@ -119,6 +119,15 @@
 	transform: scale(1.1) translateY(0rem) translateX(0rem);
 }
 
+img {
+	-khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+	pointer-events: none;
+}
+
 /* md */
 @media (min-width: 768px) {
 	.circles-wrapper {

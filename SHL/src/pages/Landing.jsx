@@ -7,6 +7,8 @@ import landingImage2 from "/images/landing_image2.png";
 import TopNav from '../components/TopNav';
 import FooterDhruv from '../components/FooterDhruv';
 import crown from '/images/crown.png';
+import pins from '/images/pins.png';
+import globe from '/images/globe.png';
 import 'animate.css/animate.min.css';
 import 'animate.css';
 
@@ -38,12 +40,26 @@ class Landing extends React.Component {
         <div className="page first-page">
           <div className="landing-section-container">
           <TopNav />
+          The Alliance of Hackathons
             <LandingSection image={backgroundImage} />
             <img className="landing-image" src={landingImage2} alt="Landing Image 2" />
             <img className="crown animate__animated animate__bounceInUp animate__slow" src={crown} alt="Crown" />
           </div>
         </div>
-        <div className="page second-page">2</div>
+        <div className="page second-page">
+  <div className="second-page-container">
+    <div className="second-page-text">
+      <h1 className='heading'> Bring your event to the</h1> <br />
+      <div className='next-text-gradient '>NEXT LEVEL <br /> </div>
+      <p className='paragraph'>
+        Elevate your event with our connected<br /> 
+        network of industry experts and sponsors.
+      </p>
+    </div>
+    <img src={pins} alt="Pins" />
+  </div>
+</div>
+
         <div className="page third-page">3</div>
         <div className="page fourth-page">4</div>
         <div className="page fifth-page">5

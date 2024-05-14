@@ -2,6 +2,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "gsap": "^3.12.5",
+    "react-shapes": "^0.1.0",
     "sass": "^1.77.1",
     "scroll-snap": "^4.0.5"
   }

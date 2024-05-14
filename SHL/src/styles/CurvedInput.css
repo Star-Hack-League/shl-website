@@ -1,0 +1,31 @@
+.input-dialog {
+    border: 0px solid #000;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #00f 50%, #800080 50%); /* Blue and purple gradient */
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  input[type='email'] {
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .submit-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    width: 20px;
+    height: 20px;
+  }
+  

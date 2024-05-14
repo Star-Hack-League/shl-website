@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/NotFound.css";
-
+import TopNav from "../components/TopNav";
+import FooterDhruv from "../components/FooterDhruv";
 function NotFound() {
   return (
     <div className="container">
-      <div className="navbarContainer">
+      {/* <div className="navbarContainer">
         <h1 className="title">Star Hack Alliance</h1>
         <div className="navbar-item-container">
           <a href="./" className="no-underline">
@@ -17,13 +18,16 @@ function NotFound() {
             <p className="navbar-items">Events</p>
           </a>
         </div>
-      </div>
+      </div> */}
+      <TopNav />
       <div className="notFound">NOT<br/>FOUND</div>
       <h1 className="tilted">
         <span>4</span>
         <span>0</span>
         <span>4</span>
       </h1>
+      <FooterDhruv
+      />
     </div>
   );
 }

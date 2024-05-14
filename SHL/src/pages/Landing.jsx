@@ -4,6 +4,8 @@ import '../styles/LandingDhruv.css';
 import LandingSection from '../components/Landing/LandingSection';
 import backgroundImage from "/images/background.png"; 
 import landingImage2 from "/images/landing_image2.png";
+import TopNav from '../components/TopNav';
+import FooterDhruv from '../components/FooterDhruv';
 import crown from '/images/crown.png';
 import 'animate.css/animate.min.css';
 import 'animate.css';
@@ -35,6 +37,7 @@ class Landing extends React.Component {
       <div id="container" ref={this.container}>
         <div className="page first-page">
           <div className="landing-section-container">
+          <TopNav />
             <LandingSection image={backgroundImage} />
             <img className="landing-image" src={landingImage2} alt="Landing Image 2" />
             <img className="crown animate__animated animate__bounceInUp animate__slow" src={crown} alt="Crown" />
@@ -43,7 +46,10 @@ class Landing extends React.Component {
         <div className="page second-page">2</div>
         <div className="page third-page">3</div>
         <div className="page fourth-page">4</div>
-        <div className="page fifth-page">5</div>
+        <div className="page fifth-page">5
+        <FooterDhruv
+        />
+        </div>
       </div>
     );
   }

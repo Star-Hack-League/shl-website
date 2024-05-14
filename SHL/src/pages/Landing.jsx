@@ -127,9 +127,9 @@ class Landing extends React.Component {
             <img className="dottedline" src={dottedline} />
           </div>
         </div>
-        <div className="page third-page">
-          <div className="second-page-container">
-            <div className="second-page-text">
+        <div className="page fifth-page">
+          <div className="fifth-page-container">
+            <div className="fifth-page-text">
               <h1 className="heading">
                 <div className="next-text-gradient ">Let's Connect! </div>{" "}
               </h1>

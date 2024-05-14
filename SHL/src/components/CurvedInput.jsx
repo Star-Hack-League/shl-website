@@ -20,7 +20,7 @@ const CurvedInput = ({ onEmailSubmit }) => {
       <div className="input-container">
         <input
           type="email"
-          placeholder="Enter your email"
+          placeholder="Email"
           value={email}
           onChange={handleEmailChange}
         />

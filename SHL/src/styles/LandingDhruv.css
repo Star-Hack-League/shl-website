@@ -68,29 +68,16 @@ body {
   
   .landing-image {
     position: absolute;
-    bottom: 0; /* Change from top: 50% */ 
-    transform: none; /* Remove the translation transform */
-    width: 100%; /* Adjust the max-width as needed */
-    height: 60%; /* Adjust the max-height as needed */
-    /* object-fit: cover; */
+    bottom: 0; 
+    transform: none; 
+    width: 100%; 
+    height: 60%;
   }
-  /* .centered-content {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  } */
-  
-  /* .crown {
-    width: 100px; 
-    height: auto;
-  } */
   .crown {
     position: absolute;
     bottom: 52%;
     left: 55%; 
-    transform: none; /* Remove the translation transform */
-    width: 15%; /* Adjust the max-width as needed */
+    transform: none; 
+    width: 15%; 
     height: 20%; 
   }

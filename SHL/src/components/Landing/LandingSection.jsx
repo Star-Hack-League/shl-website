@@ -10,7 +10,6 @@ export default function Mysection({
       <div className={styles.copy}>
       </div>
       <img src={image} layout="fill"/>
-      <button className={styles.downArrow} ></button>
     </div>
   );
 }

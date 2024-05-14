@@ -1,0 +1,96 @@
+html,
+body {
+  margin: 0;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: default;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  color: #000;
+  background-color: black;
+}
+.first-page {
+  height: 100%;
+  min-height: 100%;
+  color: white;
+}
+.second-page {
+    height: 100%;
+    min-height: 100%;
+    color:white;
+}
+.third-page {
+    height: 100%;
+    min-height: 100%;
+    color:white;
+}
+.fourth-page {
+    height: 100%;
+    min-height: 100%;
+    color:white;
+}
+.fifth-page {
+    height: 100%;
+    min-height: 100%;
+    color:white;
+}
+.hint {
+  position: absolute;
+  bottom: 20%;
+  font-size: 16px;
+}
+.landing-section-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+  }
+  
+  .landing-image {
+    position: absolute;
+    bottom: 0; /* Change from top: 50% */ 
+    transform: none; /* Remove the translation transform */
+    width: 100%; /* Adjust the max-width as needed */
+    height: 60%; /* Adjust the max-height as needed */
+    /* object-fit: cover; */
+  }
+  /* .centered-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  } */
+  
+  /* .crown {
+    width: 100px; 
+    height: auto;
+  } */
+  .crown {
+    position: absolute;
+    bottom: 52%;
+    left: 55%; 
+    transform: none; /* Remove the translation transform */
+    width: 15%; /* Adjust the max-width as needed */
+    height: 20%; 
+  }

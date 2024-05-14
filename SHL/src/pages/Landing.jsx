@@ -8,7 +8,8 @@ import TopNav from '../components/TopNav';
 import FooterDhruv from '../components/FooterDhruv';
 import crown from '/images/crown.png';
 import pins from '/images/pins.png';
-import globe from '/images/globe.png';
+import plane from '/images/plane.png';
+import button from '/images/button.png';
 import 'animate.css/animate.min.css';
 import 'animate.css';
 
@@ -40,7 +41,13 @@ class Landing extends React.Component {
         <div className="page first-page">
           <div className="landing-section-container">
           <TopNav />
-          The Alliance of Hackathons
+
+            <center>
+            <h1 className='heading'>
+            The <div className='next-text-gradient animate__animated animate__fadeIn animate__slow'>Alliance</div> of 
+          <br/>Hackathons </h1>
+            </center>
+
             <LandingSection image={backgroundImage} />
             <img className="landing-image" src={landingImage2} alt="Landing Image 2" />
             <img className="crown animate__animated animate__bounceInUp animate__slow" src={crown} alt="Crown" />
@@ -60,7 +67,19 @@ class Landing extends React.Component {
   </div>
 </div>
 
-        <div className="page third-page">3</div>
+        <div className="page third-page">
+        <div className="second-page-container">
+    <div className="second-page-text">
+      <h1 className='heading'>Soar to<div className='next-text-gradient '>&nbsp;NEW HEIGHTS </div> </h1> <br />
+      <p className='paragraph'>
+      Gain Next-Level Event Support Tailored to<br /> 
+      Your Needs.
+      </p>
+    </div>
+    <img className='plane' src={plane} alt="Plane" />
+    <img className='button' src={button}/>
+  </div>
+        </div>
         <div className="page fourth-page">4</div>
         <div className="page fifth-page">5
         <FooterDhruv

@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollSnap from "scroll-snap";
-import "../styles/LandingDhruv.css";
+import "../styles/Partner.css";
 import LandingSection from "../components/Landing/LandingSection";
 import backgroundImage from "/images/background.png";
 import landingImage2 from "/images/landing_image2.png";
@@ -21,7 +21,7 @@ function callback() {
   console.log("snapped");
 }
 
-class Landing extends React.Component {
+class Partner extends React.Component {
   constructor(props) {
     super(props);
     this.container = React.createRef();
@@ -150,7 +150,7 @@ class Landing extends React.Component {
   }
 }
 
-export default Landing;
+export default Partner;
 
 // import React from "react";
 // import { useRef } from "react";

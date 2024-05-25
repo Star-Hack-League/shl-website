@@ -1,0 +1,38 @@
+.input-dialog {
+    border: 0px solid #000;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(-90deg, var(--text-purple), var(--text-blue));
+    height: 8%;
+    width: 100%;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+  }
+  
+  input[type='email'] {
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    margin-right: 10px;
+    background: black;
+  }
+  input[type='email']:focus {
+    outline: none;
+    background: -webkit-linear-gradient(-90deg, var(--text-purple), var(--text-blue));
+  }
+  
+  .submit-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    width: 20px;
+    height: 20px;
+  }
+  

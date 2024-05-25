@@ -1,8 +1,8 @@
 import "./styles/App.css";
 import Events from "./pages/Events";
 import Home from "./pages/Home";
-import Partner from "./pages/Partner";
 import NotFound from "./pages/NotFound";
+import Partner from "./pages/Partner";
 import { Route, Routes } from "react-router-dom";
 
 function App() {

@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/NotFound.css";
 import TopNav from "../components/TopNav";
 import Footer from "../components/Footer";

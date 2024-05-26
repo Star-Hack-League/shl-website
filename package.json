@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@types/react-router": "^5.1.20",
     "animate.css": "^4.1.1",
     "gsap": "^3.12.5",
     "react-shapes": "^0.1.0",

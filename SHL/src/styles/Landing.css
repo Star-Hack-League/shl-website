@@ -1,160 +1,248 @@
 .LandingContainer {
-    background-color: black;
-    min-width: 100vw;
-    min-height: 100vh;
-    max-height: 100vh;
-    max-width: 100vw;
-    overflow: hidden;
-    position: relative;
+	background-color: black;
+	min-width: 100vw;
+	min-height: 100vh;
+	max-height: 100vh;
+	max-width: 100vw;
+	overflow: hidden;
+	position: relative;
 }
 
 .LandingContainer img {
-    user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none; 
-    pointer-events: none;
-  }
+	user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	pointer-events: none;
+}
 
 .navbarContainer {
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 2;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 2;
 }
 
 .title {
-    font-family: "Roboto";
-    margin-left: 1vw;
-    color: white;
+	font-family: "Roboto";
+	margin-left: 1vw;
+	color: white;
 }
 
 .no-underline {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .navbar-item-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-    gap: 1vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+	gap: 1vw;
 }
 
 .navbar-items {
-    font-family: "Roboto";
-    color: white;
-    margin: 0;
-    text-align: center;
+	font-family: "Roboto";
+	color: white;
+	margin: 0;
+	text-align: center;
 }
 
 .StarContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
 .StarContainer img {
-    width: 100%; 
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .StarContainerLeft {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    z-index: 1; 
-  }
-  
-  .StarContainerLeft img {
-    width: 100%; 
-    height: 100%;
-    object-fit: contain;
-  }
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	z-index: 1;
+}
 
-  .StarContainerBottom {
-    position: absolute;
-    bottom: 0; 
-    left: 50%;
-    transform: translateX(-90%);
-    z-index: 1;
-  }
-  
-  .StarContainerBottom img {
-    width: 100%; 
-    height: 100%;
-    object-fit: contain;
-  }
+.StarContainerLeft img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
 
-  .StarContainerBottomRight {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-  }
-  
-  .StarContainerBottomRight img {
-    width: 100%; 
-    height: 100%;
-    object-fit: contain;
-  }
+.StarContainerBottom {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-90%);
+	z-index: 1;
+}
 
-  .StarContainerRight {
-    position: absolute;
-    top: 50%;
-    right: 0; 
-    transform: translateY(-50%);
-    z-index: 1;
-  }
-  
-  .StarContainerRight img {
-    width: 100%; 
-    height: 100%;
-    object-fit: contain;
-  }
+.StarContainerBottom img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
 
-  .TitleImageContainer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 3;
-  }
-  
-  .TitleImageContainer img {
-    width: 50vw;  
-    max-width: 800px; 
-  }
+.StarContainerBottomRight {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.StarContainerBottomRight img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.StarContainerRight {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+
+.StarContainerRight img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.TitleImageContainer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.TitleImageContainer img {
+	width: 50vw;
+	max-width: 800px;
+}
 
 @media only screen and (max-width: 768px) {
-    .navbar-item-container {
-        display: none;
-    }
+	.logo {
+		margin-left: 0;
+	}
 
-    .navbar-items {
-        display: none;
-    }
+	.title {
+		margin-left: 3vw;
+		opacity: 0;
+	}
 
-    .navbarContainer {
-        justify-content: center;
-    }
+	.StarContainerLeft {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%) translateX(-30%) scale(0.4);
+		z-index: 1;
+	}
 
-    .logo {
-        margin-left: 0;
-    }
+	.StarContainerLeft img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
 
-    .title {
-        margin-left: 3vw;
-    }
+	.StarContainerBottomRight {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: 1;
+		transform: scale(0.6) translateY(20%);
+	}
 
-    .StarContainer, .StarContainerBottom, .StarContainerBottomRight, .StarContainerLeft, .StarContainerRight{
-        display: none;
-    }
-    .TitleImageContainer img {
-        width: 80vw;
-    }
+	.StarContainerBottomRight img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+
+	.StarContainerRight {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%) translateX(20%) scale(0.7);
+		z-index: 1;
+	}
+
+	.StarContainerRight img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+
+	.TitleImageContainer img {
+		width: 80vw;
+	}
+}
+
+.hamburger {
+	display: none;
+	background: none;
+	border: none;
+	color: white;
+	font-size: 3rem;
+	position: absolute;
+	right: 2rem;
+	top: 2rem;
+	z-index: 3;
+	z-index: 99999999999;
+}
+
+.mobile-menu {
+	position: absolute;
+	top: 2.5vh;
+	left: 5vw;
+	width: 90vw;
+	height: 95vh;
+	background-color: rgba(255, 255, 255, 0.413);
+	backdrop-filter: blur(8px);
+	border: 7px solid white;
+	border-radius: 1rem;
+	color: white;
+	z-index: 99999999;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.mobile-links-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	width: 90%;
+}
+
+.mobile-link {
+	font-size: 4rem;
+	-webkit-text-stroke: 3px black;
+	font-weight: 900;
+	color: white;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.hamburger {
+		display: block;
+	}
+
+	.navbar-item-container {
+		display: none;
+	}
+
+	.navbar-items {
+		display: none;
+	}
 }
